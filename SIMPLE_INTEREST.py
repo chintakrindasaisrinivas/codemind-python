@@ -1,3 +1,3 @@
-p,t,r=map(int,input().split())
-s=(p*t*r)//100
-print(s)
+a,b,c=map(int,input().split())
+s=(a*b*c)//100
+print("%d"%s)
