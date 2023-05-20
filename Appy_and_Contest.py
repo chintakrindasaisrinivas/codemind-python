@@ -1,7 +1,7 @@
 x=int(input())
 for i in range(0,x):
     n,a,b,k=map(int,input().split())
-    L=0
+    l=0
     if(a%b==0):
         l=a
     elif(b%a==0):
@@ -16,4 +16,4 @@ for i in range(0,x):
     if c+d>=k:
         print('Win')
     else:
-       print('Lose')
+        print('Lose')
